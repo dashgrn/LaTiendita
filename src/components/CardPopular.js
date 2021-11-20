@@ -29,7 +29,7 @@ const CardPopular = ({ productPopular }) => {
               <Card.Body>
                 <Card.Title>{art.name}</Card.Title>
                 <Card.Text>
-                  $ {art.price} /kg
+                <p className="price">$ {art.price}/kg</p>
                 </Card.Text>
                 <Button
                   onClick={()=>handleAdd(art)}
