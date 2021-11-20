@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Card, Button } from 'react-bootstrap'
-import axios from 'axios'
 import { ENDPOINT_URL} from '../helpers/Endpoint'
 
 export const Product = ({ allProducts }) => {

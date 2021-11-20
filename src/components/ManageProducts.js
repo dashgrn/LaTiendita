@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { fileUpload } from '../helpers/fileUpload'
 import axios from 'axios'
 import { ENDPOINT_URL } from '../helpers/Endpoint'
@@ -17,7 +17,7 @@ export const ManageProducts = () => {
         image: ""
     },[])
 
-    const { name, price, category, popularity, image } = producto;
+    const { name, price, category, image } = producto;
 
     console.log(category, price);
 

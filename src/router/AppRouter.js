@@ -11,8 +11,6 @@ import { ManageProducts } from '../components/ManageProducts'
 import { Product } from '../components/Product'
 import {ENDPOINT_URL} from '../helpers/Endpoint'
 
-const test = 'holi'
-
 export const AppRouter = () => {
     
     const [allProducts, setAllProducts] = useState([])
