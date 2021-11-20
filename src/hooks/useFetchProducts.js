@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { getProducts } from "../helpers/getProducts";
 
-const useFetchProucts = () => {
+const useFetchProducts = () => {
     const [state, setState] = useState({
         data:[]
     })
@@ -15,7 +15,8 @@ const useFetchProucts = () => {
         })
     }, [])
 
+    
   return state
 }
 
-export default useFetchProucts
+export default useFetchProducts
